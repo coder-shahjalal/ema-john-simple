@@ -1,0 +1,13 @@
+.addcart {
+  margin-left: 20px;
+  width: 25%;
+}
+.shop {
+  margin-top: 10px;
+  border-right: 1px solid gray;
+  overflow: hidden;
+}
+
+.shopcomponent {
+  display: flex;
+}
