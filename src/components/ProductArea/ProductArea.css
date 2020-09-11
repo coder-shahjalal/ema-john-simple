@@ -1,0 +1,28 @@
+.addcart {
+  margin-left: 20px;
+  width: 25%;
+}
+.shop {
+  margin-top: 10px;
+
+  overflow: hidden;
+}
+
+.shopcomponent {
+  display: flex;
+}
+
+.card-style {
+  margin: 25px 10px;
+  padding: 15px 15px;
+  box-shadow: 5px 5px 25px #aaaaaa;
+  height: 410px;
+  align-items: center;
+}
+
+.card-style img {
+  width: 75%;
+}
+.addcart {
+  border-left: 1px solid gray;
+}
