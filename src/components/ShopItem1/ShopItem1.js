@@ -9,6 +9,7 @@ import "firebase/auth";
 firebase.initializeApp(firebaseConfig);
 
 const ShopItem1 = (props) => {
+  // console.log(props);
   const provider = new firebase.auth.GoogleAuthProvider();
   const handleSignIn = () => {
     firebase
@@ -32,7 +33,10 @@ const ShopItem1 = (props) => {
           </Card.Title>
           <Card.Text>by: {seller}</Card.Text>
           <Card.Text>${price}</Card.Text>
-          <Button variant="primary" onClick={handleSignIn}>
+          <Button
+            variant="primary"
+            onClick={() => props.handleAddProduct(props.product)}
+          >
             Go somewhere
           </Button>
         </Card.Body>

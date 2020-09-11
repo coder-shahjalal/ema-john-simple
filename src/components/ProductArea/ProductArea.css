@@ -9,7 +9,7 @@
 }
 
 .shopcomponent {
-  display: flex;
+  display: inline-block;
 }
 
 .card-style {
@@ -25,4 +25,16 @@
 }
 .addcart {
   border-left: 1px solid gray;
+}
+.addCart {
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 500px;
+  margin-top: 28px;
+  margin-left: 25px;
+  width: 25%;
+}
+
+.card-style Button {
+  cursor: pointer;
 }
