@@ -14,7 +14,7 @@ const ShopIteam3 = (props) => {
           </Card.Title>
           <Card.Text>by: {seller}</Card.Text>
           <Card.Text>${price}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary" onClick={() => props.handleAddProduct(props.product)}>Go somewhere</Button>
         </Card.Body>
       </Card>
     </div>

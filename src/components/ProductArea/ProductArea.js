@@ -32,9 +32,10 @@ const ProductArea = () => {
   return (
     <div className=" ProductArea container-fluid d-flex">
       <div className="container-fluid d-flex justify-content row">
-        <div className="col-md-4 ">
+        <div className="col-md-4">
           {products.map((pd) => (
             <ShopItem1
+              showAddToCart={true}
               handleAddProduct={handleAddProduct}
               product={pd}
             ></ShopItem1>
@@ -42,13 +43,19 @@ const ProductArea = () => {
         </div>
         <div className="col-md-4 ">
           {products2.map((fd) => (
-            <ShopIteam2 product2={fd}></ShopIteam2>
+            <ShopIteam2
+              handleAddProduct={handleAddProduct}
+              product2={fd}
+            ></ShopIteam2>
           ))}
         </div>
 
         <div className="col-md-4 ">
           {products3.map((fd) => (
-            <ShopIteam3 product3={fd}></ShopIteam3>
+            <ShopIteam3
+              handleAddProduct={handleAddProduct}
+              product3={fd}
+            ></ShopIteam3>
           ))}
         </div>
       </div>
