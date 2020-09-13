@@ -1,0 +1,8 @@
+.cartsyle {
+  width: 16rm;
+}
+.card-style img {
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 1px 10px 10px #aaafe771;
+}
